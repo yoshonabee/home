@@ -6,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello, world</h1>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -26,4 +25,8 @@ class App extends Component {
   }
 }
 
-export default App;
+export default () => {
+	return (
+		<h1>Hello, world!</h1>
+	)
+}
