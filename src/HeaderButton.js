@@ -5,7 +5,7 @@ import './styles.css'
 export default ({to, text}) => {
 	return (
 		<li className="header-item">
-			<Link to={to} smooth="easeInOutCubic" duration={1000}><a href="#">{text}</a></Link>
+			<Link to={to} smooth="easeInOutCubic" duration={800}><a href="#">{text}</a></Link>
 		</li>
 	)
 }
