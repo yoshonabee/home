@@ -10,7 +10,7 @@ const headerButtons = [{'to': 'home', 'text': 'Home'},
 					   {'to': 'projects', 'text': 'Projects'},
 					   {'to': 'awards', 'text': 'Awards'},]
 
-const interests = ['Programming', 'Machine / Deep Leaning', 'Guitar', 'Piano']
+const interests = ['Music', 'Programming', 'Computer Games', 'Photography']
 
 const skills = {'Natural Languages': ['Mandarin Chinese (native)', 'English', 'Taiwanese (native)'],
 				'Programming Languages': ['Python', 'C', 'C++', 'Java', 'Javascript', 'Arduino'],
@@ -122,13 +122,13 @@ class Blog extends React.Component {
 					<div id="awards" className="block">
 						<h3>Honors and Awards</h3>
 						<div className="under-line"></div>
-						<div>
-							<h5><b>Machine Learning / Deep Learning</b></h5>
-							<div className="block-item">
-								<ul className="list-unstyled">
-								</ul>
-							</div>
-						</div>
+						{/*<div>
+													<h5><b>Machine Learning / Deep Learning</b></h5>
+													<div className="block-item">
+														<ul className="list-unstyled">
+														</ul>
+													</div>
+												</div>*/}
 						<div>
 							<h5><b>Music</b></h5>
 							<div className="block-item">
